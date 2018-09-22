@@ -1,3 +1,3 @@
 # My First Website
 
-~~My Photography websites~~
+**My Photography websites**
