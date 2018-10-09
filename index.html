@@ -74,7 +74,31 @@ hr {
     to {left: 200px;}
 }
 
+  overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;  
+  }
+  
+  .move1:hover .overlay {
+  opacity: 1;
+}
 
+.imgtext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 
 </style
 
@@ -99,6 +123,9 @@ hr {
 <a href="flower.html">
   <img src="img/IMG_20170708_205315.JPG" alt="front" width="350" height="350">
 </a>
+<div class="overlay">
+  <div class="imgtext">Flower Capture</div>
+</div>  
 </div>
 
 <br>
